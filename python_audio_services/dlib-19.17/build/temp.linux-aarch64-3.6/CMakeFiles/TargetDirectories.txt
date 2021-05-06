@@ -1,0 +1,8 @@
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/CMakeFiles/rebuild_cache.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/CMakeFiles/dlib_python.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/CMakeFiles/edit_cache.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/pybind11_build/CMakeFiles/rebuild_cache.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/pybind11_build/CMakeFiles/edit_cache.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/CMakeFiles/rebuild_cache.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/CMakeFiles/dlib.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,28 @@
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06f07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06f07.dir/build.make CMakeFiles/cmTC_06f07.dir/build
+make[1]: Entering directory '/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06f07.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_06f07.dir/CheckIncludeFile.c.o   -c /var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_06f07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06f07.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_06f07.dir/CheckIncludeFile.c.o  -o cmTC_06f07 
+make[1]: Leaving directory '/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88785/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88785.dir/build.make CMakeFiles/cmTC_88785.dir/build
+make[1]: Entering directory '/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88785.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_88785.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88785.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_88785.dir/CheckFunctionExists.c.o  -o cmTC_88785 -lpthread 
+make[1]: Leaving directory '/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/CMakeTmp'
+
+

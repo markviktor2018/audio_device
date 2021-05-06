@@ -1,0 +1,3 @@
+SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "set"
+LINE 1: set character set utf8
+                      ^

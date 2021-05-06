@@ -1,0 +1,104 @@
+body {
+	font-family:Verdana;
+}
+
+.editor_button {
+	cursor: hand; 
+	border:#000000 solid 1px; 
+	height:20px;
+}
+.editor_button_hover {
+	cursor: hand; 
+	background-color: FFD5D5; 
+	border:#000000 solid 1px; 
+	height:20px;
+}
+.show0 {display: none;}
+.show1 {display: block;}
+.editor_blocking {
+	position:absolute; 
+	display:none; 
+	height:380px; 
+	width:100%; 
+	background:#ffffff;
+	opacity:.7; 
+	-moz-opacity:.7;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha( style=0,opacity=70);
+}
+.dialog {
+	position:absolute; 
+	display:none; 
+	width:100%; 
+	height:360px;
+}
+.dialog div {
+	position:relative; 
+	display:block; 
+	background:#FFFFFF; 
+	border:#000000 solid 1px;
+}
+
+.t_editor_buttons {
+	border:none;
+	border-collapse:collapse;
+}
+.t_editor_buttons td {
+	padding-top:0px;
+	padding-bottom:4px;
+	padding-left:3px;
+	padding-right:0px;
+	vertical-align:bottom;
+}
+
+.t_submenu {
+	position:relative;
+	left:-15px; 
+	background:#FFFFFF;
+	border:#000000 solid 1px;
+}
+.t_submenu td {
+	padding:0px;
+	border:#FFFFFF solid 1px;
+	cursor:hand;
+}
+
+.editor_select_style {font-size:13px; font-family:Verdana; width:122px;}
+
+.editor_select_image {width:100%;}
+
+.input_text  {
+	color: #000000; 
+	font-family: Arial; 
+	font-weight: normal; 
+	background: #efefef; 
+	width:100%; 
+	border: solid 1px #787878; 
+	padding-left: 3px; 
+}
+.input_button  {
+	color: #000000; 
+	font-family: Arial; 
+	font-weight: normal; 
+	background: #efefef; 
+	border: solid 1px #787878; 
+	padding-left: 3px; 
+}
+
+.t_dialog {
+	border-collapse:collapse;
+	width:100%;
+}
+.t_dialog th {
+	background:#CCCCCC;
+	color:#0000FF;
+	text-align:center;
+	font-weight:bold;
+}
+.t_dialog td {
+	text-align:right;
+	padding-right: 5px;
+	font-size:80%;
+}
+#text_to_edit {
+	display:none;
+}

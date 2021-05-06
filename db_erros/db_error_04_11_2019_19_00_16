@@ -1,0 +1,4 @@
+SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: text = integer
+LINE 1: ...isabled' and state<>'wait_for_check' and email_verificated=1
+                                                                     ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpword": "^0.16.0",
+        "google/cloud-dialogflow": "^0.10.0",
+        "telegram-bot/api": "^2.3"
+    }
+}

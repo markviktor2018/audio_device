@@ -1,0 +1,3 @@
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/rebuild_cache.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/cudnn_test.dir
+/var/www/html/face_detection/dlib-19.17/build/temp.linux-aarch64-3.6/dlib_build/cudnn_test_build/CMakeFiles/edit_cache.dir

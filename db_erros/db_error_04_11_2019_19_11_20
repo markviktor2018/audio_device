@@ -1,0 +1,3 @@
+SQLSTATE[42601]: Syntax error: 7 ОШИБКА:  ошибка синтаксиса (примерное положение: "set")
+LINE 1: set character set utf8
+                      ^

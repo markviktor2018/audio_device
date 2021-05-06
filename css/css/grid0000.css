@@ -1,0 +1,64 @@
+/* -------------------------------------------------------------- 
+  == STRUCTURE: ========================
+   * Page width:            936 px
+   * Number of columns:     20
+   * Column width:          24 px
+   * Margin width:          24 px
+  ======================================
+   
+  By default, the grid is 936px wide, with 20 columns 
+  spanning 24px, and a 24px margin between columns.
+  
+  If you need fewer or more columns, use this formula to calculate
+  the new total width: 
+  
+  Total width = (number_of_columns * column_width) - margin_width
+-------------------------------------------------------------- */
+
+/* A page container should group all columns. */
+
+body {min-width:960px; background:url("/images/body_bg.jpg") repeat-y scroll center 0px transparent}
+#page {width:996px;margin:0 auto; padding-top:20px;}
+.page2 {width:966px;margin:0; padding-left:16px; padding-right:14px; padding-top:10px; background-color:#FFF; -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Columns
+-------------------------------------------------------------- */
+/*.section {float: left;margin-right: 24px;}*/
+
+/* Use these classes to set the width of a column. */
+div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, div.third, div.two-thirds, div.sixth, div.article, div.aside, #footer .search, div.half, div.fourth, div.fifth  {float:left;margin-right:24px;}
+
+/* The last column in a row needs this class. */
+.last, div.last, div.aside, #footer .search {margin-right:0;}
+
+.span-1  {width:24px;}
+.span-2  {width:72px;}
+.span-3  {width:120px;}
+.sixth   {width:136px;}
+.span-4, #footer .search, .fifth {width:168px;}
+.span-5, .fourth  {width:216px;}
+.span-6, .aside {width:264px;}
+.third   {width:296px;}
+.article .third {width:200px;}
+.span-7  {width:312px;}
+.span-8  {width:360px;}
+.span-9  {width:408px;}
+.span-10, .half {width:456px;}
+.span-11 {width:504px;}
+.span-12 {width:552px;}
+.span-13 {width:600px;}
+.two-thirds {width:616px; }
+.span-14, .article {width:648px;}
+.span-15 {width:696px;}
+.span-16, .sitenav {width:744px;}
+.span-17 {width:792px;}
+.span-18 {width:840px;}
+.span-19 {width:888px;}
+.span-20, div.span-20 {width:936px; margin:0;}
+
+/* Border on right hand side of a column. */
+div.border, div.article{padding-right:11px;margin-right:12px;border-right:1px solid #ddd;}

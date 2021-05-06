@@ -1,0 +1,23 @@
+i@raspberrypi:~/RWP $ ./tone.py
+init_audio: Create PyAudio object
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+init_audio: Open stream
+init_audio: audio stream initialized
+tone.main(): start playing tones
+tone.main: tone() 440
+tone.main: tone(261)
+tone.main: tone(880)
+tone.main: tone() 440
+tone.main: tone(261)
+tone.main: tone(880)
+^C
+** Control-C Detected
+close_audio: Closing stream
+close_audio: Terminating PyAudio Object
+pi@raspberrypi:~/RWP $ 
